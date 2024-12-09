@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "BackEnd.Controllers.InstituicaoController",
+    "Method": "Get",
+    "RelativePath": "Instituicao",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.InstituicaoController",
+    "Method": "Salvar",
+    "RelativePath": "Instituicao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instituicao",
+        "Type": "BackEnd.Classes.Instituicao",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.InstituicaoController",
+    "Method": "ObterPorId",
+    "RelativePath": "Instituicao/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.InstituicaoController",
+    "Method": "Excluir",
+    "RelativePath": "Instituicao/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.VoluntarioController",
+    "Method": "Get",
+    "RelativePath": "Voluntario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.VoluntarioController",
+    "Method": "Salvar",
+    "RelativePath": "Voluntario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "BackEnd.Classes.Voluntario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.VoluntarioController",
+    "Method": "ObterPorId",
+    "RelativePath": "Voluntario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controllers.VoluntarioController",
+    "Method": "Excluir",
+    "RelativePath": "Voluntario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
